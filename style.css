@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  position: relative;
+}
+header img {
+  width: 70px;
+  margin-left: 120px;
+}
+.ankar1 {
+  padding-left: 70px;
+  cursor: pointer;
+}
+header a {
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+header a:hover {
+  text-decoration: underline brown solid;
+}
+.b3 {
+  font-size: 20px;
+}
+.b2 {
+  margin-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.b1 {
+  border: 1px black solid;
+  background-color: rgb(238, 238, 239);
+  height: 30px;
+  width: 30px;
+}
+video {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 800px;
+  width: 93.45%;
+}
+.ank a {
+  padding: 70px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.ank {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 260px;
+  background-color: black;
+}
+header input {
+  padding-left: 10px;
+  margin-left: 400px;
+  height: 30px;
+  width: 150px;
+  background-color: rgb(238, 238, 239);
+  border: 1px black solid;
+}
+.greydays {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.greydays h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.greydays button {
+  margin: 20px auto;
+  border: 1px solid brown;
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  width: 130px;
+}
+#clothes {
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#clothes img {
+  padding-top: 20px;
+  width: 490px;
+}
+#clothes button {
+  margin-top: 10px;
+  border: 1px solid brown;
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  width: 140px;
+}
+.container {
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 10px;
+}
+.container .card a {
+  text-decoration: none;
+  border: 1px solid brown;
+  background-color: brown;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+.container a:hover {
+  color: rgb(72, 7, 7);
+}
+.card p {
+  margin-bottom: 5px;
+}
+.card img {
+  width: 450px;
+  margin-bottom: 10px;
+}
+#projects h1 {
+  padding-top: 25px;
+  font-size: 2.2em;
+  color: black;
+  font-weight: 800;
+}
+#projects {
+  background-color: rgb(242, 243, 242);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#image1 {
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  transition: 0.7s ease;
+}
+#image1:hover {
+  transform: scale(1.1);
+}
+#image1 img {
+  border-radius: 10px;
+  height: 200px;
+
+  width: 300px;
+}
+
+#image1 a {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  border: solid 2px brown;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}
+#image1 a:hover {
+  background-color: rgb(95, 8, 8);
+}
+#image1 h4 {
+  padding-top: 8px;
+}
+#image1 p {
+  padding-left: 10px;
+
+  color: rgb(28, 28, 28);
+}
+#projectss {
+  background-color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-top: 100px;
+}
+#projectss h1 {
+  padding-top: 25px;
+  font-size: 2.2em;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+.imagee {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imagee1 {
+  width: 350px;
+  height: 130px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  transition: 0.7s ease;
+}
+.imagee1:hover {
+  transform: scale(1.1);
+}
+.imagee1 h3 {
+  padding-top: 8px;
+  text-align: center;
+}
+.imagee1 p {
+  padding: 20px;
+  padding-top: 20px;
+  color: rgb(173, 97, 97);
+}
+.signup button {
+  border: 1px solid brown;
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  width: 130px;
+}
+.signup {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+#map {
+  text-align: center;
+}
+.discount {
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.discount img {
+  padding-top: 20px;
+  width: 490px;
+}
+.discount a {
+  border: 2px brown solid;
+  color: white;
+  background-color: brown;
+  border-radius: 5px;
+  padding: 15px;
+  text-decoration: none;
+}
+.result {
+  padding-top: 10px;
+}
+#scrollUp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: rgb(70, 70, 255);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+footer {
+  color: black;
+  padding-top: 25px;
+  line-height: 1.5;
+}
+footer .container1 {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+  margin: auto;
+}
+footer p {
+  text-align: center;
+  color: black;
+  margin: 5px;
+}
+footer .container1 ul {
+  list-style: none;
+}
+footer {
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0, 3s;
+}
+footer a:hover {
+  color: black;
+  text-decoration: underline rgb(143, 143, 249) solid;
+}
+#hr {
+  color: gray;
+  border: 0;
+  border-bottom: 2px solid gray;
+  margin-top: 5px;
+}
+footer a {
+  text-decoration: none;
+}
+footer i {
+  padding: 5px;
+}
+.footer-coulumn {
+  width: 25%;
+}
+.footer-coulumn h4 {
+  font-size: 1, 25rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+footer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+}
